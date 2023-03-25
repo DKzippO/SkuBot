@@ -1,0 +1,20 @@
+{
+  "name": "Sku Bot",
+  "version": "1",
+  "description": "WhatsApp Bot.",
+  "main": "bot.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "supervisor -s bot.js"
+  },
+  "keywords": [
+    "2023",
+    "baileys",
+    "bot",
+    "whatsapp"
+  ],
+  "author": "Skueletor.",
+  "license": "GPL",
+  "dependencies": {
+        "@adiwajshing/baileys": "^4.4.0",
+  }
